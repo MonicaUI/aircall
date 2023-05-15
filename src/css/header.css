@@ -1,0 +1,42 @@
+header {
+  height: 50px;
+  margin: 0 auto;
+  padding-top: 4px; 
+  text-align: center;
+  display: flex;
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+header svg {
+  display: block;
+  width: 100px; 
+  padding-top: 10px;
+}
+
+text {
+  font-size: 100px;
+}
+
+.activity {
+  padding-top: 15px;
+  font-size: 17px;
+  margin-left: -80px;
+}
+
+.divider {
+  clip-path: polygon(
+    21% 80%,
+    11% 92%,
+    0 100%,
+    62% 100%,
+    100% 100%,
+    100% 0%,
+    75% 4%,
+    62% 10%,
+    52% 22%
+  );
+  width: 50px;
+  height: 50px;
+  background-color: #ebecf0; 
+}

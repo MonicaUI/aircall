@@ -1,0 +1,20 @@
+footer {
+    height: 80px;
+    background-color: white;
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  footer > svg {
+      border: 1px solid #ffffff;
+      padding: 10px;
+      border-radius: 50px;
+      color: grey;
+  }
+  
+  footer > svg:hover {
+      transform: scale(1.1);
+  }
